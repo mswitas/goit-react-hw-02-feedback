@@ -3,10 +3,6 @@ import React, { Component } from "react";
 class Section extends Component {
     static defaultProps = { title: "" };
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const { title } = this.props;
         return (
