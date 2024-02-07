@@ -1,0 +1,20 @@
+.btnsList {
+    display: flex;
+    gap: 5px;
+    padding: 0;
+}
+
+.btnsList button {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btnsList button:hover {
+    background-color: aqua;
+}
+
+.btnsList button:active {
+    background-color: blue;
+}

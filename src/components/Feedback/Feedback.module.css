@@ -1,0 +1,12 @@
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-inline-start: 15px;
+}
+
+.btnsList {
+    display: flex;
+    gap: 5px;
+    padding: 0;
+}
