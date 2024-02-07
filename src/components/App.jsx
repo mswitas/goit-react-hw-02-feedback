@@ -35,6 +35,7 @@ class App extends Component {
           return { bad: prevState.bad + 1 };
         });
       break;
+      default:
     }
     this.countTotalFeedback();
     this.countPositiveFeedbackPercentage();
