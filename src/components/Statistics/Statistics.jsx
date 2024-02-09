@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class Statistics extends Component {
     static defaultProps = {
@@ -7,6 +8,13 @@ class Statistics extends Component {
         bad: 0,
         total: 0,
         positivePercentage: 0,
+    }
+    static propTypes = {
+        good: PropTypes.number.isRequired,
+        neutral: PropTypes.number.isRequired,
+        bad: PropTypes.number.isRequired,
+        total: PropTypes.number.isRequired,
+        positivePercentage: PropTypes.number.isRequired,
     }
 
     render() {
